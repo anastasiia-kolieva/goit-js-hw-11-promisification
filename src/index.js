@@ -1,1 +1,1 @@
-import './styles.css';
+// нужно сделать npm run build
