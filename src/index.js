@@ -1,7 +1,5 @@
 // Task 1
 
-const { resolve, reject } = require('core-js/fn/promise');
-
 // Напиши функцию delay(ms), которая возвращает промис, переходящий в состояние "resolved" через ms миллисекунд. Значением исполнившегося промиса должно быть то кол-во миллисекунд которое передали во время вызова функции delay.
 
 const delay = ms => {
@@ -41,7 +39,9 @@ const loggerNew = updatedUsers => console.table(updatedUsers);
 toggleUserState(users, 'Mango').then(loggerNew);
 toggleUserState(users, 'Lux').then(loggerNew);
 
+
 // Task 3
+
 
 const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
